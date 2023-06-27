@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculator</title>
+    <style>
+        .container {
+            width: 400px;
+            margin-top: 50px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: #33334d;
+            border-radius: 20px;
+            padding-bottom: 50px;
+            padding-top: 20px;
+        }
+
+        .screen {
+            font-size: 40px;
+            width: 350px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: #808080;
+            padding: 5px;
+            height: 50px;
+
+        }
+
+        .btn-row {
+            display: flex;
+            font-size: 30px;
+            justify-content: space-evenly;
+            margin-bottom: 5px;
+            font-size: 50px;
+
+
+        }
+
+        .cal-btn {
+            font-size: 40px;
+            width: 70px;
+            height: 70px;
+            border-radius: 50px;
+            border: none;
+            margin-bottom: 5px;
+            cursor: pointer;
+            margin-top: 15px;
+        }
+
+
+
+        .cal-btn:hover {
+            font-size: 45px;
+            border-radius: 30px;
+            transition: 1sec;
+        }
+
+        .brand-name {
+
+            text-align: right;
+            color: white;
+            margin-right: 20px;
+            font-size: 20px;
+
+
+        }
+
+        .small-screen {
+            height: 30px;
+            width: 30px;
+            background-color: #808080;
+            border: 1px solid black;
+            margin-top: 15px;
+
+        }
+
+        .small-screens {
+            display: flex;
+            justify-content: end;
+            margin-right: 20px;
+
+        }
+
+        .bg-tomato {
+            background-color: tomato;
+            color: white;
+
+        }
+    </style>
+</head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<body>
+    <div class="container">
+        <p class="brand-name">
+            RTC
+        </p>
+        <input type="text" class="screen" />
+        <div class="small-screens">
+            <div class="small-screen"></div>
+            <div class="small-screen"></div>
+            <div class="small-screen"></div>
+        </div>
+
+        <div class="btn-row">
+
+            <button class="cal-btn">7</button>
+            <button class="cal-btn">8</button>
+            <button class="cal-btn">9</button>
+            <button class="cal-btn bg-tomato">÷</button>
+        </div>
+        <div class="btn-row">
+            <button class="cal-btn">4</button>
+            <button class="cal-btn">5</button>
+            <button class="cal-btn">6</button>
+            <button class="cal-btn bg-tomato">x</button>
+        </div>
+        <div class="btn-row">
+            <button class="cal-btn">1</button>
+            <button class="cal-btn">2</button>
+            <button class="cal-btn">3</button>
+            <button class="cal-btn bg-tomato">-</button>
+        </div>
+        <div class="btn-row">
+            <button class="cal-btn">0</button>
+            <button class="cal-btn">.</button>
+            <button class="cal-btn bg-tomato">+</button>
+            <button class="cal-btn bg-tomato">=</button>
+        </div>
+
+
+
+    </div>
+</body>
+
+</html>
